@@ -14,10 +14,10 @@ let School = {
 
         //  Balikisu
         modifyStudent: function(id){},
-        registerStudent: function(name, age, sex, ){},
+        registerStudent: function(name, middlename, surname, state, age, gender, sclass, schoolfee){},
 
         //  Asiyah
-        employStaff: function(name, gender, subject, yearsOfExperience, qualification, contact){},
+        employStaff: function(name, middlename, surname, state, age, gender, subject, yearsOfExperience, qualification, contact, salary){},
         getAllStaffs: function(){},
 
         // Samuel
