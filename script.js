@@ -8,9 +8,20 @@ let School = {
                       staff: [],
 
 
-       // Adenike              
-        getAllStudents: function(){},
-        getStudent: function(id){},
+       // Adenike  
+       //get list of all students in the school           
+        getAllStudents: function(){
+              return this.student
+        },
+
+        //search for a student by id
+        getStudent: function(id){
+              for (let i = 0; i < this.student.length; i++) {      
+                     if (id === this.student[i].id){
+                         return this.student[i]
+                     }          
+              }
+        },
 
         //  Balikisu
         modifyStudent: function(id){},
